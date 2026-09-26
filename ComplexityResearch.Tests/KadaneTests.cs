@@ -1,11 +1,11 @@
-using ComplexityResearch.Algorithms;
+﻿using ComplexityResearch.Algorithms;
 using ComplexityResearch.Services;
 using Xunit;
 
 namespace ComplexityResearch.Tests;
 
 /// <summary>
-/// Тесты алгоритма Кадане (№11) — вклад участника Dev2.
+/// Тесты алгоритма Кадане (№11).
 /// </summary>
 public class KadaneTests
 {
