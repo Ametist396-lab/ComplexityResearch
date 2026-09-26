@@ -33,10 +33,12 @@ public static class AlgorithmRegistry
         new BubbleSortAlgorithm(),               // №6
         new QuickSortAlgorithm(),                // №7
         new TimSortAlgorithm(),                  // №8
-        new MatrixMultiplicationAlgorithm()      // №9
+        new MatrixMultiplicationAlgorithm(),     // №9
 
-        // Кастомные (индивидуальные) алгоритмы №10–№12 будут добавлены
-        // в этот реестр (по одной строке на алгоритм).
+        // Кастомные (индивидуальные) алгоритмы — в конце списка (№10–№12).
+        new CustomAlgorithm(),                   // №10
+        new KadaneAlgorithm(),                   // №11
+        new ReverseArrayAlgorithm()              // №12
     ];
 
     /// <summary>
